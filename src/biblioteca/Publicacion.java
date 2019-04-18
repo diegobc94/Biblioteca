@@ -13,12 +13,8 @@ public class Publicacion {
 	}
 	
 	public static void main(String[] args) {
-		Libro libro = new Libro(1, "Cronicas", 1995);
-		System.out.println(libro.toString());
-		libro.prestar();
-		System.out.println(libro.toString());
-		libro.devolver();
-		System.out.println(libro.toString());
+		Revista revista = new Revista(0, "Paparazzi", 1994, 1);
+		revista.toString();
 	}
 
 	public int getCodigo() {
